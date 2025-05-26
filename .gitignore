@@ -1,2 +1,6 @@
 *.joblib
 *.csv
+.env
+env/
+venv/
+myenv/
