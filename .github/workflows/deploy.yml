@@ -26,5 +26,5 @@ jobs:
         env:
           HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
         run: |
-          git remote add heroku https://heroku:${HEROKU_API_KEY}@git.heroku.com/wine-quality-predictor.git
+          git remote add heroku https://heroku:${HEROKU_API_KEY}@git.heroku.com/wine-qualit-predict.git
           git push heroku HEAD:main -f
